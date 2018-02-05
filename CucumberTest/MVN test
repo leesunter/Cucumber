@@ -1,0 +1,10 @@
+navigate to
+C:\Users\S258115\git\CucumberTest\CucumberTest\MVN test
+mvn compile
+mvn test
+
+Now run command mvn test - Dcucumber.options="--help" on command prompt. Running this will print all available options.
+
+To run the specific tags only, run the command mvn test -Dcucumber.options="--tags @SmokeTest" on command prompt. It will run only tags, which are marked with @SmokeTest.
+
+LoginTest>mvn test -Dcucumber.options="--plugin junit:target/cucumber-junit-report.xml" on command prompt It changes the report format to JUnit report generator.
