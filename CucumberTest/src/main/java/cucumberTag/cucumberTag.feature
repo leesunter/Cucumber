@@ -11,7 +11,7 @@ Examples:
 |username2 |password2 |
 
 #following scenario has been tagged as SmokeTest and this should get executed. 
-
+#
 @SmokeTest
 Scenario: 
 Given user navigates to Facebook 
